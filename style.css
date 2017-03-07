@@ -1,0 +1,291 @@
+/*--- Muttley Crew Cuts ---*/
+/*--- by Jess Allen Web ---*/
+
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	background:#fff;
+	font-family:helvetica,arial,sans-serif;
+	}
+
+#container {
+	margin:50px auto 0 auto;
+	max-width:90%;
+	width:940px;
+	background:#333;
+}
+
+#left {
+  float:left;
+  width:64%;
+  height:200px;
+  background:#ccc;
+  padding:10px;
+}
+
+#right {
+  float:right;
+  width:31.2%;
+  height:200px;
+  background:#ccc;
+  padding:10px;
+}
+
+
+/*----------------
+ Navigation
+ ---------------*/
+
+nav {
+	margin-top:-4px;
+	background:#333;
+	height:40px;
+	line-height:40px;
+}
+
+nav ul {
+	overflow:hidden;
+	width:70%;
+	margin:0 auto;
+}
+
+nav li {
+	text-align:center;
+	float:left;
+	width:20%;
+	list-style-type:none;
+}
+
+nav a {
+	color:#fff;
+	text-decoration:none;
+	display:block;
+}
+
+nav a:hover{
+color:#fff;
+background-color:#900;
+}
+
+/*----------------
+ Featured
+ ---------------*/
+
+#featured {
+	background:#fff;
+	width:100%;
+	overflow:hidden;
+}
+
+#featured ul {
+	overflow:hidden;
+    background:#900;
+}
+
+#featured ul.text {
+	overflow:hidden;
+    background:#fff;
+    border-bottom:2px solid black;
+}
+
+#featured li {
+
+	width:32.3%;
+	list-style-type:none;
+	background:#900;
+	padding-top:15px;
+
+}
+
+#featured li.white {
+	color:#000;
+	width:31.7%;
+	list-style-type:none;
+	background:#fff;
+    padding:3px;
+    line-height:1.4em;
+
+}
+
+#featured li:nth-child(1) {
+	float:left;
+    margin-right:1.4%;
+}
+
+#featured li:nth-child(2) {
+	float:left;
+}
+
+#featured li:nth-child(3) {
+	float:right;
+}
+
+#featured li.white:nth-child(1) {
+    float:left;
+    margin-right:1.4%;
+}
+
+#featured li.white:nth-child(2) {
+    float:left;
+    padding-left:5px;
+
+}
+
+#featured li.white:nth-child(3) {
+    float:right;
+    padding-left:8px;
+}
+
+#featured img {
+	width:95%;
+	display:block;
+	margin:0 auto;
+}
+
+#featured h3 {
+	text-align:right;
+	padding:5px 15px 5px 0;
+	color:#aaa;
+	font-size:1.3em;
+}
+
+
+/*------------------------
+------- Info ----------
+------------------------*/
+
+#info {
+	max-width:97%;
+	margin:0 auto;
+	background:#333;
+	padding:10px;
+}
+
+#info ul {
+	margin-top:5px;
+	overflow:hidden;
+	width:100%;
+	padding:0 0 0px 0px;
+	background:#333;
+}
+
+#info li {
+	float:left;
+	color:#000;
+	width:32%;
+	list-style-type:none;
+	padding:8px 0 0 5px;
+}
+
+#info img {
+	width:95%;
+}
+
+#info p {
+	padding-bottom:20px;
+    padding-left:20px;
+	color:#fff;
+}
+
+#info a {
+	color:#fff;
+}
+
+#info a:hover {
+	color:#ccc;
+}
+
+#info strong {
+	color:#aaa;
+    padding-left:10px;
+}
+
+
+/*------------------------
+------- Footer ----------
+------------------------*/
+
+footer {
+	height:40px;
+	line-height:40px;
+	background:#900;
+	padding:5px 0 5px 0;
+	margin-bottom:50px;
+}
+
+footer ul {
+    float:right;
+	width:75%;
+	overflow:hidden;
+}
+
+footer li {
+    font-size:.8em;
+	color:#ccc;
+	float:left;
+	list-style-type:none;
+	padding-right:20px;
+}
+
+footer a {
+	color:#fff;
+}
+
+footer a:hover{
+	color:#ccc;
+}
+
+header img {
+	width:100%;
+	}
+
+main {
+	padding:0 10px 0 10px;
+	background:#ccc;
+    border-bottom:2px solid black;
+}
+
+main h1 {
+	padding:30px 0 10px 30px;
+	color:#333;
+}
+
+main p{
+	padding:20px 40px 10px 40px;
+	text-align:center;
+}
+
+main a {
+	color:#900;
+	text-decoration: none;
+}
+main a:hover {
+	color:#333;
+	text-decoration:underline;
+}
+
+body#home nav li:nth-child(1) a,
+body#about nav li:nth-child(2) a,
+body#specials nav li:nth-child(3) a,
+body#tour nav li:nth-child(4) a,
+body#contact nav li:nth-child(5) a {
+	background:#900;
+	color:#fff;
+}
+
+
+
+
+/*-- #featured li.white {
+    float:right;
+	color:#000;
+	width:33.33%;
+	list-style-type:none;
+	background:#aaa;
+	padding-top:8px;
+    line-height:1.4em;
+    border-bottom:1px solid black;
+} */
